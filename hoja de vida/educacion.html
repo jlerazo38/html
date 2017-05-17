@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Eduacion</title>
+  </head>
+  <body>
+    <svg width="200px" height="200px" viewBox="0 0 900 350">
+      <image width="300px" height="300px" xlink:href="img/logo.svg"></image>
+    </svg>
+    <h1>Curriculum Vitae</h1>
+    <h2>Nombre: </h2>Jose L.
+    <h2>Apellidos: </h2>Erazo A.
+    <h2>Fecha de nacimiento: </h2>30
+    <ul>
+      <li> <a href="index.html">Inicio</a></li>
+      <li> <a href="educacion.html">Eduacion</a></li>
+      <li> <a href="experiencia.html">Experiencia</a></li>
+    </ul>
+    <h2>Eduaci&oacute;n</h2>
+    <table border="1" cellpadding="0" cellspacing="0" width="40%">
+      <thead>
+        <tr>
+          <th align="center">Año</th>
+          <th align="center">Institución</th>
+          <th align="center">Lugar</th>
+          <th align="center">¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td align="center">2015</td>
+          <td align="center">Cinco de Junio</td>
+          <td align="center">Centro</td>
+          <td align="center">si</td>
+        </tr>
+        <tr>
+          <td align="center">2016</td>
+          <td align="center">Juan de Velasco</td>
+          <td align="center">norte</td>
+          <td align="center">si</td>
+        </tr>
+        <tr>
+          <td align="center">2017</td>
+          <td align="center">Unach</td>
+          <td align="center">sur</td>
+          <td align="center">si</td>
+        </tr>
+      </tbody>
+      </table>
+      <form autocomplete="on" name="formulario">
+        <fieldset style="width:700px">
+          <legend>Agregar estudios</legend>
+          <table>
+            <tr>
+              <td>
+                <b>A&ntilde;o</b>
+              </td>
+              <td>
+                <select>
+                  <option>2015</option>
+                  <option>2016</option>
+                  <option>2017</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>Institucion:</b>
+              </td>
+              <td>
+                <input type="text" name="institucion" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+              <b>Lugar:</b>
+              </td>
+              <td>
+              <input type="text" name="lugar">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>Culmino</b>
+              </td>
+              <td>
+                <label>si</label><input type="radio" name="pregunta" value="s">
+                <label>no</label><input type="radio" name="pregunta" value="n">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" name="enviar" value="enviar">
+              </td>
+            </tr>
+          </table>
+        </form>
+
+  </body>
+</html>
